@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin:  0;
+
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color:  #0e0e10;
+}
+
+header {
+    width: 100%;
+    height:  8vh;
+    display:  flexbox;
+
+    background-color:  #1b1e23;
+
+    & .menu {
+        width: 100%;
+        height: 100%;
+        display: flexbox;
+    }
+
+    & .menuList {
+        width: 100%;
+        height: 100%;
+        display: flexbox;
+
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+       display: flex;
+
+       
+    }
+
+    & .menuItem {
+        padding: 1vh;
+        margin: 1vw;
+    }
+
+    & .highlight {
+        color: #1b1e23;
+        padding: .25em;
+        border-radius: .25em;
+        background-color: brown;
+    }
+}
+
+main {
+    width: 100%;
+    display: flex;
+
+    & .adsContainer {
+        width: 20%;
+        height: 80vh;
+    }
+
+    & .container {
+        width: 60%;
+        height: 80vh;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-color: #1b1e23;
+}
