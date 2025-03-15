@@ -32,9 +32,7 @@ header {
         justify-content: center;
         align-items: center;
         list-style: none;
-       display: flex;
-
-       
+        display: flex;
     }
 
     & .menuItem {
@@ -62,6 +60,101 @@ main {
     & .container {
         width: 60%;
         height: 80vh;
+        display: flexbox;
+    }
+
+    & .roulette {
+        width: 100%;
+        height: 50%;
+        display: flexbox;
+
+        justify-items: center;
+        align-content: center;
+    }
+
+    & .rouletteTitle {
+        width: 100%;
+        padding: 2vh;
+
+        text-align: center;
+        font-size: x-large;
+    }
+
+    & .roulettePossibilities {
+        width: 85%;
+        height: 15vh;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        border-radius: 1em;
+
+        background-color: #1b1e23;
+    }
+
+    & .rouletteBar {
+        width: .2vw;
+        height: 16.5%;
+        position: absolute;
+
+        background-color: white;
+    }
+
+    & .rouletteItem {
+        margin: 2%;
+        padding: 2.5%;
+
+        width: 7.25%;
+        height: 45%;
+
+        background-color: #0e0e10;
+        border-radius: 1em;
+    }
+
+    & .rouletteBets {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+
+    & .betArea {
+        width: 33.33%;
+        height: 100%;
+        display: flexbox;
+
+        justify-content: center;
+    }
+
+    & .betButton {
+        width: 90%;
+        height: 7vh;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        border: 0;
+        border-radius: .5em;
+        background-color: #1b1e23;
+    }
+
+    & .buttonIcon {
+        width: 17%;
+        height: 80%;
+
+        margin-right: 20%;
+    }
+
+    & .buttonText {
+        margin-left: 20%;
+    }
+
+    & .betsList {
+        width: 90%;
+        height: 30vh;
+
+        margin-top: 1.5vh;
     }
 }
 
@@ -70,4 +163,26 @@ footer {
     height: 12vh;
     display: flex;
     background-color: #1b1e23;
+
+    & .information {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    & .informationList {
+        width: 100%;
+        height: 100%;
+        display: flexbox;
+
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+    }
+
+    & .informationItem {
+        padding: 1vh;
+        margin: 1vw;
+    }
 }
